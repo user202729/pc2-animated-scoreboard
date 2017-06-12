@@ -38,8 +38,8 @@ function parseContest(xml) {
 		for (let p of c.problemSummaryInfo) {
 			team.problems.push({
 				index: p.$.index,
-				pending: Boolean(p.$.isPending),
-				solved: Boolean(p.$.isSolved),
+				pending: p.$.isPending === 'true',
+				solved: p.$.isSolved === 'true',
 				attempts: Number(p.$.attempts),
 				penalty: Number(p.$.points),
 				submitTime: Number(p.$.solutionTime)
