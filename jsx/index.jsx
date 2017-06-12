@@ -109,7 +109,7 @@ class Cell extends React.Component {
 				classname = 'success';
 				if (team.submitTime === problem.bestSolution) {
 					classname = 'info';
-					upper = <b>{upper}</b>;
+					upper = <b title="First solved">{upper}</b>;
 					lower = <b>{lower}</b>;
 				}
 			} else if (team.pending) {
