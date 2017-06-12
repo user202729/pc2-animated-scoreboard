@@ -1,0 +1,4 @@
+node_modules
+data.xml
+public/*.min.*
+public/index.js

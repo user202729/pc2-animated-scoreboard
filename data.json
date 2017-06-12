@@ -1,0 +1,159 @@
+{
+	"contestStandings": {
+		"standingsHeader": [{
+			"$": {
+				"currentDate": "Wed Jul 30 23:36:58 PDT 2008",
+				"generatorId": "$Id: DefaultScoringAlgorithm.java 1456 2008-04-02 07:55:37Z boudreat $",
+				"groupCount": "1",
+				"medianProblemsSolved": "0",
+				"problemCount": "1",
+				"problemsAttempted": "1",
+				"siteCount": "2",
+				"systemName": "CSUS Programming Contest System",
+				"systemURL": "http://pc2.ecs.csus.edu/",
+				"systemVersion": "9.DEBUG 20080731 build 765",
+				"title": "Contest",
+				"totalAttempts": "1",
+				"totalSolved": "1"
+			},
+			"groupList": [""],
+			"colorList": [{
+				"colors": [{
+					"$": {
+						"id": "1",
+						"siteNum": "1"
+					},
+					"problem": [{
+						"$": {
+							"color": "Blue",
+							"id": "1"
+						}
+					}]
+				}]
+			}],
+			"problem": [{
+				"$": {
+					"attempts": "1",
+					"bestSolutionTime": "3",
+					"id": "1",
+					"lastSolutionTime": "3",
+					"numberSolved": "1",
+					"title": "Sumit"
+				}
+			}]
+		}],
+		"teamStanding": [{
+			"$": {
+				"firstSolved": "3",
+				"index": "0",
+				"lastSolved": "3",
+				"points": "3",
+				"problemsAttempted": "1",
+				"rank": "1",
+				"solved": "1",
+				"teamAlias": "team2 (not aliasesd)",
+				"teamExternalId": "",
+				"teamId": "2",
+				"teamKey": "1TEAM2",
+				"teamName": "team2",
+				"teamSiteId": "1",
+				"totalAttempts": "1"
+			},
+			"problemSummaryInfo": [{
+				"$": {
+					"attempts": "1",
+					"index": "1",
+					"isPending": "false",
+					"isSolved": "true",
+					"points": "3",
+					"problemId": "Sumit--1524782133810469541",
+					"solutionTime": "3"
+				}
+			}]
+		}, {
+			"$": {
+				"firstSolved": "-1",
+				"index": "1",
+				"lastSolved": "0",
+				"points": "0",
+				"problemsAttempted": "0",
+				"rank": "2",
+				"solved": "0",
+				"teamAlias": "team1 (not aliasesd)",
+				"teamExternalId": "",
+				"teamId": "1",
+				"teamKey": "1TEAM1",
+				"teamName": "team1",
+				"teamSiteId": "1",
+				"totalAttempts": "0"
+			},
+			"problemSummaryInfo": [{
+				"$": {
+					"attempts": "0",
+					"index": "1",
+					"isPending": "false",
+					"isSolved": "false",
+					"points": "0",
+					"problemId": "Sumit--1524782133810469541",
+					"solutionTime": "0"
+				}
+			}]
+		}, {
+			"$": {
+				"firstSolved": "-1",
+				"index": "2",
+				"lastSolved": "0",
+				"points": "0",
+				"problemsAttempted": "0",
+				"rank": "2",
+				"solved": "0",
+				"teamAlias": "team3 (not aliasesd)",
+				"teamExternalId": "",
+				"teamId": "3",
+				"teamKey": "1TEAM3",
+				"teamName": "team3",
+				"teamSiteId": "1",
+				"totalAttempts": "0"
+			},
+			"problemSummaryInfo": [{
+				"$": {
+					"attempts": "0",
+					"index": "1",
+					"isPending": "false",
+					"isSolved": "false",
+					"points": "0",
+					"problemId": "Sumit--1524782133810469541",
+					"solutionTime": "0"
+				}
+			}]
+		}, {
+			"$": {
+				"firstSolved": "-1",
+				"index": "3",
+				"lastSolved": "0",
+				"points": "0",
+				"problemsAttempted": "0",
+				"rank": "2",
+				"solved": "0",
+				"teamAlias": "team4 (not aliasesd)",
+				"teamExternalId": "",
+				"teamId": "4",
+				"teamKey": "1TEAM4",
+				"teamName": "team4",
+				"teamSiteId": "1",
+				"totalAttempts": "0"
+			},
+			"problemSummaryInfo": [{
+				"$": {
+					"attempts": "0",
+					"index": "1",
+					"isPending": "false",
+					"isSolved": "false",
+					"points": "0",
+					"problemId": "Sumit--1524782133810469541",
+					"solutionTime": "0"
+				}
+			}]
+		}]
+	}
+}
