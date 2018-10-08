@@ -13,8 +13,9 @@ function parseContest(xml) {
 		problems: [],
 		teams: []
 	};
-	xml.standingsHeader[0].problem.sort((a, b) => Number(a.$.id) - Number(b.$.id));
-	for (let p of xml.standingsHeader[0].problem) {
+	let problems = xml.standingsHeader[0].problem || [];
+	problems.sort((a, b) => Number(a.$.id) - Number(b.$.id));
+	for (let p of problems) {
 		contest.problems.push({
 			title: p.$.title,
 			attempts: Number(p.$.attempts),
@@ -34,8 +35,9 @@ function parseContest(xml) {
 			rank: Number(c.$.rank),
 			problems: []
 		};
-		c.problemSummaryInfo.sort((a, b) => Number(a.$.index) - Number(b.$.index));
-		for (let p of c.problemSummaryInfo) {
+		let problemSummaryInfo = c.problemSummaryInfo || [];
+		problemSummaryInfo.sort((a, b) => Number(a.$.index) - Number(b.$.index));
+		for (let p of problemSummaryInfo) {
 			team.problems.push({
 				index: p.$.index,
 				pending: p.$.isPending === 'true',
