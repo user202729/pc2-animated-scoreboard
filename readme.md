@@ -11,7 +11,8 @@ Download the source. Run `npm install`.
 Change the settings in `config.json`. 
 
 - `xml_path` should be where the `results.xml` file is located. Usually it's within the PC^2 installation folder.
-Note that the file is only generated/updated if `pc2board` is run.
+Note that the file is only generated/updated if `pc2board` is run. If not present, it will be detected
+automatically.
 - `port` is where you want the server to be running on.
 - `disp_name`: The displayed name of teams, override the PC^2 teamName if present. For example:
 
